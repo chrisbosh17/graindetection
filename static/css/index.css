@@ -1,0 +1,56 @@
+
+#content{
+            width: 850px;
+            height: 550px;
+            overflow: hidden;  /*撑开最大的div盒子*/
+            border-radius: 10px 10px 10px 10px;
+            border:solid  orange;
+            border-width: thick;
+            zoom: 1;      /*兼容IE6*/
+            margin-left: auto;
+            margin-right: auto;   /*最大的div盒子居中*/
+
+        }
+    #content #top{
+        height:120px ;
+        width:800px ;
+        float:left;
+    }
+    #content #left {
+        height: 250px;
+        width: 400px;
+
+        background: white;
+        float: left ;
+    }
+    #content #right {
+        height: 250px;
+        width: 400px;
+        background: white;
+        float: right ;
+    }
+    #content #down{
+        height:90px ;
+        width:800px ;
+        background:white ;
+
+        float:left
+        }
+    #content #down #reminder{
+        height: 73px;
+        width :540px;
+        position: absolute;
+        border: solid 1px darkgray;
+        border-width: thin;
+        left: 0;
+        right: 0;
+        top: 480px;
+        margin: auto;
+    }
+    span{
+        padding-right:10px;
+        width:6em;
+        display:block;
+        float:left;
+        line-height:26px;
+    }
